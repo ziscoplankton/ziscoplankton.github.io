@@ -359,6 +359,12 @@ span .letter-hero {
     color: #000;
     text-shadow: 4px 4px lightgray;
 }
+
+.python {
+    position: relative;
+    z-index: 1;
+}
+
 /* CONTACT PAGE */
 /*
 *
