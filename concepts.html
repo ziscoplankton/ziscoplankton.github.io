@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body class="position-relative">
+        <main class=" d-flex flex-column justify-content-between container-fluid p-0 h-100">
+            <header class="">
+                <nav class="navbar">
+                    <div class="container-fluid d-flex flex-row">
+                        <div class="navbar-brand-div rounded-5 m-5 mt-0">
+                            <a class="nav-a" href="index.html" id="text">fb</a>
+                        </div>
+                        <div class="" id="navbarSupportedContent">
+                            <ul class="nav d-flex flex-column flex-grow-1 flex-md-row">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="concepts.html">Concepts</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="projects.html">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link " href="contact.html">Contact</a>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                  </nav>
+            </header>
+
+            <section class="container h-100 d-flex justify-content-center align-items-center">
+              <ul class="concepts-ul">
+                <li style="--i:3" >
+                  <a 
+                  class="nav-link" 
+                  data-bs-toggle="offcanvas"
+                  href="#Languages"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  >Languages
+                  </a>
+                </li>
+                <li style="--i:2" >
+                  <a 
+                  class="nav-link" 
+                  data-bs-toggle="offcanvas"
+                  href="#DataStruct"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  >Data Structures
+                  </a>
+                </li>
+                <li style="--i:1" >
+                  <a 
+                  class="nav-link" 
+                  data-bs-toggle="offcanvas"
+                  href="#DataLink"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  >Data Link
+                  </a>
+                </li>
+                <li style="--i:0" >
+                  <a 
+                  class="nav-link" 
+                  data-bs-toggle="offcanvas"
+                  href="#OSIModel"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  >OSI Model
+                  </a>
+                </li>
+              </ul>
+            </section>
+
+            <!-----------------------OSIMODEL---------------------->
+            <div class="offcanvas offcanvas-bottom h-75 w-auto " tabindex="-1" id="OSIModel" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="OSIModel">OSI Model</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body h-75">
+                <p class="osi-p">
+                    The Open Systems Interconnection model is a conceptual model
+                    used in computer science to describe the processes that computer systems
+                    use to communicate over a network. It is composed of seven layers:
+                    <ul class="list-group lg">
+                        <li class="list-group-item lgi">Application</li>
+                        <li class="list-group-item">Presentation</li>
+                        <li class="list-group-item">Session</li>
+                        <li class="list-group-item">Transport</li>
+                        <li class="list-group-item">Network</li>
+                        <li class="list-group-item">Data link</li>
+                        <li class="list-group-item">Physical</li>
+                    </ul>
+                </p>
+                <p>
+                    These model is usually divided in two parts, the first 4 layers are associated
+                    to networking and the last three to development. Combined it is also called DevOps.
+                    The model goes from top to bottom in the de-encapsulation process
+                    but going from bottom to top in the encapsulation process which can be named
+                    sending data and receiving data.
+                </p>
+              </div>
+            </div>
+
+              <!--------------LANGUAGES------------------->
+            <div class="offcanvas offcanvas-bottom h-75 w-auto " tabindex="-1" id="Languages" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="Languages">Languages</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="row ">
+                  <img alt="C logo" class="logos-offcanvas col-3 m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" >
+                  <p class="col-9 p-2 px-5">
+                      Capturing pixels on dead memories, creating filters, checking strings against dictionaries, cyphering text, constructing graphs, grading text input
+                  </p>
+                </div>
+                <div class="row ">
+                  <img alt="Python logo" class="logos-offcanvas col-3 m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" >
+                  <p class="col-9 p-2 px-5">
+                    Translating C programs into Python programs with 66% less code on average                  
+                  </p>
+                </div>
+                <div class="row ">
+                  <img alt="Javascript logo" class="logos-offcanvas col-3 m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" >
+                  <p class="col-9 p-2 px-5">
+                    Grasping and traversing DOM and HTML elements to create interactions on web pages                  
+                  </p>
+                </div>
+                <div class="row ">
+                  <div class="col-3 d-flex justify-content-center align-items-center">
+                    <img alt="CSS logo" style="width: 45px; height: 45px;" class="logos-offcanvas col-3 m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" >
+                    <img alt="HTML logo" style="width: 45px; height: 45px;" class="logos-offcanvas col-3 m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" >  
+                  </div>
+                  <p class="col-9 p-2 px-5">
+                    Creating webpages using html elements and css properties including styling with sass and bootstrap                  
+                  </p>
+                </div>
+                <div class="row ">
+                  <div class="col-3 d-flex justify-content-start">
+                    <img alt="SQL Logo" style="width: 45px; height: 45px;" class="logos-offcanvas col-3 m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" >
+                  </div>
+                  <p class="col-9 p-2 px-5">
+                    Understanding's of CRUD and mysql lite to create reports based on multiple criterias and conditions                  
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <!-----------------------DATASTRUCTURES---------------------->
+            <div class="offcanvas offcanvas-bottom h-75 w-auto" tabindex="-1" id="DataStruct" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="DataStruct">Data Structures</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p>
+                  From arrays to tries, data structures can be very useful when it comes to storage and data access, via different algorithms such as linear search, binary search,...
+                  aiming for the quickest results.<br>
+                  The simpliest data structure would be an array. It is a contiguous portion of memory addresses that are holding data of a unique data type.
+                  <br>
+                  Therefore, a more sophisticated way to store data is to dynamically allocate memory addresses and create structures by linking these memory blocks together.
+                  These data structures can be very interesting as it can hold multiple data types and values but cheeky to create without loosing track of their head or breaking their chaines and tail.
+              </p>
+              <svg class="data-struct-svg" width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="18" y="9" width="4" height="4" rx="2" transform="rotate(90 18 9)" stroke="#222222"/>
+                  <rect x="18" y="17" width="4" height="4" rx="2" transform="rotate(90 18 17)" stroke="#222222"/>
+                  <rect x="3" y="7" width="4" height="4" rx="2" transform="rotate(-90 3 7)" stroke="#222222"/>
+                  <path d="M5 8V15C5 16.8856 5 17.8284 5.58579 18.4142C6.17157 19 7.11438 19 9 19H14" stroke="#222222"/>
+                  <path d="M5 7V7C5 8.88562 5 9.82843 5.58579 10.4142C6.17157 11 7.11438 11 9 11H14" stroke="#222222"/>
+              </svg>
+              <div>This could be a representation of a data structure where the links are made via a second field within the data structure and each node represent a memory allocation of type 'structure' to create a linked list.</div>
+              </div>
+            </div>
+
+
+            <!-----------------------DATASTRUCTURES---------------------->
+            <div class="offcanvas offcanvas-bottom h-75 w-auto" tabindex="-1" id="DataLink" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="DataLink">Data Link</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body h-75">
+                <p>
+                  Data Link is based on the Layer 2 of the OSI Model . It is known for MAC Addressing and its unit is the Ethernet frame. This unit includes layers itself:
+                  <br>
+                  <ol class="list-group">
+                      <li class="list-group-item">Preamble<br> A series of 7 bytes - 56 bites of "10" to create a bit level sync</li>
+                      <li class="list-group-item"> SFD (Start Frame Delimiter) <br> Used to delimit the start of a (new) frame</li>
+                      <li class="list-group-item">MAC DST</li>
+                      <li class="list-group-item">MAC SRC</li>
+                      <li class="list-group-item">802.1Q (also named dot1q & optional) <br> Used in VLANs and trunking</li>
+                      <li class="list-group-item">Length</li>
+                      <li class="list-group-item">Payload</li>
+                      <li class="list-group-item">FCS (Frame Check Sequence)</li>
+                  </ol>
+              </p>
+              <p class="mac-p">
+                  MAC addresses are written in hex, are 6 bytes and a colon is inserted between pairs:
+                  <br> 00:EE:AF:FF:EA:00
+                  <br> This example shows a pattern from the concept of IPv6 EUI-64 which is a method that
+                  creates automatically a unique IPv6 addresse using the MAC ADDR and the INT ID(interface). This method
+                  inserts "FFFE" between the two halves of a MAC.
+              </p>
+              <p>
+                  MAC addresses halves are actually meaningful in other ways. The first half
+                  is usually associated to a constructor and the other is used to uniquely identify a machine onto its hardware.
+                  <br>Which is a why they are also known as BIA ADRR for "Burn In Address". Therefore, frames can be forged.
+                  <br>An 'old classic' is exploiting the Address Resolution Protocol known as ARP spoofing or ARP poisoning.
+                  <br>Another way to mislead communications at this layer is a vlan leak by exploiting vlan knowledges unto dot1q and the native vlans.
+                  <br>Therefore, features on switches can mitigate vulnerabilities by enabling port-security and DAI (Dynamic ARP Inspection).
+              </p>
+              </div>
+            </div>
+
+        </main>
+
+        <!------------BOOTSTRAP & POPPERS JS----------->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+        <!------------END BOOTSTRAP & POPPERS JS----------->
+        <script src="3dtext.js"></script>
+</body>
+</html>

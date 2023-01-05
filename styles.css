@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');/* REINIT BROWSER FORMATS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+body {
+    height: 100vh;
+}
+
+/* FONT TO LOGO & HERO */
+
+
+/* LOGO */
+.nav-a {
+    text-decoration: none;
+    font-size: 6em;
+    font-family: 'Baumans';
+    color: #FFF;
+    text-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.nav-a:hover {
+    color: #000;
+    text-shadow: 2px 2px lightgray;
+    transition: all 600ms ease;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.sign {
+    background-color: #000;
+    width: 5px;
+    height: 100px;
+}
+.nav .nav-link {
+    color: #FFF;
+    text-shadow: 1px 1px lightgray;
+    text-align: end;
+}
+
+.nav .nav-link:hover {
+    color: #000;
+    text-shadow: 2px 2px lightgray;
+    transition: all 600ms ease;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+/* MAIN SECTION: HERO */
+
+.hero-h1{
+    color: #FFF;
+    text-shadow: 1px 1px #000;
+    height: 100%;
+    animation: appear 10s forwards;
+    opacity: 0;
+    transition: all 600ms ease;
+}
+
+.letter-hero {
+    font-size: 10vw;
+}
+@keyframes appear {
+    to {opacity: 1;}
+}
+
+.title-hero {
+    display: none;
+    color: #FFF;
+    text-shadow: -2px 0px #000;
+    font-size: 4em;
+}
+
+
+span .letter-hero {
+    opacity: 0.5;
+    border: 1px black solid;
+    height: 50px;
+}
+
+.letter-hero:hover {
+    color: #000;
+    text-shadow: 4px 4px lightgray;
+    transition: all 600ms ease;
+    cursor: pointer;
+    opacity: 1;
+}
+
+/*POPOVERS*/
+.popover , .popover-header{
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+}
+
+
+
+/*CUBE */
+/*SOURCE: 'Open Tutorials CSS' */
+.container-cube {
+    position: relative;
+    top: -160px;
+    right: -40px;
+    transform: skewY(-20deg);
+    /* animation: animate 5s linear infinite; */
+    transition: all 600ms ease;
+}
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.container-cube .cube {
+    position: relative;
+    z-index: 2;
+}
+
+.container-cube .cube:nth-child(2)
+{
+    z-index: 1;
+    translate: -60px -60px;
+}
+.container-cube .cube:nth-child(3)
+{
+    z-index: 3;
+    translate: 60px 60px;
+}
+.container-cube .cube:nth-child(4)
+{
+    z-index: 1;
+    translate: -60px -60px;
+}
+
+.container-cube .cube div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    translate: calc(-70px * var(--x)) calc(-60px * var(--y));
+}
+
+.container-cube .cube div span {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    z-index: calc(1 * var(--i));
+    transition: 3s;
+    border: 1px lightgray solid;
+    border-radius: 1%;
+}
+.container-cube .cube div span:hover {
+    transition: 0s;
+    background: #FFF;
+    filter: drop-shadow(0px 0px 1px #000); 
+    border: 1px #000 solid;
+}
+
+.container .cube div span::before
+{
+    content: '';
+    position: absolute;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background-color: #FFF;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 1.5s;
+    border: 1px lightgray solid;
+    border-radius: 1%;
+}
+
+.container .cube div span:hover::before {
+
+    transition: 0s;
+    background: #FFF;
+    border: 1px #000 solid;
+}
+
+.container .cube div span::after
+{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #FFF;
+    border: 1px lightgray solid;
+    border-radius: 1%;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 1.5s;
+}
+
+.container .cube div span:hover::after {
+    transition: 0s;
+    background: #FFF;
+    border: 1px #000 solid;
+}
+.container .cube div a span:hover::after {
+    transform: rotateX(360deg);
+    transition: all 900ms ease;
+
+}
+
+
+
+/* 
+*
+*LOGO 
+*Source: Open Css Tutorials
+*/
+#text {
+    position: absolute;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 5em;
+    line-height: 0.9em;
+    letter-spacing: 2px;
+    text-align: center;
+    transform: rotate(-28deg) skew(25deg);
+    cursor: pointer;
+}
+
+#text:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    color: rgba(0, 0, 0, 0.3);
+    text-shadow: none;
+    filter: blur(8px);
+    z-index: -1;
+
+}
+
+
+/* CONCEPTS */
+/*
+* Source: Open CSS Tutorials
+*
+*/
+.concepts-ul {
+    position: relative;
+    transform: skewY(-15deg);
+}
+
+.concepts-ul li {
+    position: relative;
+    list-style: none;
+    width: 300px;
+    background: #FFF;
+    padding: 15px;
+    color: #FFF;
+    border: 1px solid lightgray;
+    border-radius: 1%;
+    text-shadow: 1px -1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.01em;
+    transition: 1s;
+    z-index: var(--i);
+}
+
+.concepts-ul li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: #FFF;
+    border: 1px solid lightgray;
+    border-radius: 1%;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 1s;
+}
+
+.concepts-ul li::after {
+
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #FFF;
+    border: 1px solid lightgray;
+    border-radius: 1%;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 1s;
+
+}
+
+ .concepts-ul li:hover {
+    color: #000;
+    text-shadow: 2px 2px lightgray;
+    filter: drop-shadow(0px 0px 1px #000); 
+    transform: translateX(60px);
+    transition: all 1s ease;
+ }
+
+
+.concepts-ul li:hover::before, .concepts-ul li:hover::after {
+    border: 1px #000 solid;
+}
+
+.concepts-ul li:last-child::after {
+
+    box-shadow: -120px 100px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+/*CONCEPTS PAGES BACKGROUND CUBE*/
+/*
+*
+*
+*
+*/
+
+.offcanvas-backdrop {
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+}
+.offcanvas {
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+    border: none!important;
+}
+
+.logos-offcanvas {
+    width: 60px;
+    height: 60px;
+}
+
+.offcanvas-title:hover {
+    color: #FFF;
+    text-shadow: 1px 1px #000;
+}
+
+.offcanvas-title {
+    color: #000;
+    text-shadow: 4px 4px lightgray;
+}
+/* CONTACT PAGE */
+/*
+*
+* Source Open Tutorials
+*
+*/
+
+.ul-contacts {
+    position: relative;
+    display: flex;
+    transform-style: preserve-3d;
+    transform: rotate(-25deg) skew(25deg);
+}
+
+.ul-contacts li {
+    position: relative;
+    list-style-type: none;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+
+.ul-contacts li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: rgba(0,0,0,0.3);
+    font-size: 30px !important;
+}
+
+.ul-contacts li:hover span {
+    z-index: 1000;
+    transition: 1s;
+    color: #FFF;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.ul-contacts li span svg {
+    animation: shake 0.8s infinite;
+}
+
+.ul-contacts li:hover span:nth-child(3){
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    color: rgba(0, 0, 0, 1);
+    width: 60px;
+    height: 60px;
+    text-shadow: none;
+}
+
+
+.ul-contacts li:hover span:nth-child(3)
+{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    color: rgba(0, 0, 0, 1);
+    width: 60px;
+    height: 60px;
+    text-shadow: none;
+}
+.ul-contacts li:hover span:nth-child(2)
+{
+    transform: translate(10px, -10px);
+    opacity: .4;
+}
+.ul-contacts li:hover span:nth-child(1)
+{
+    transform: translate(0px, 0px);
+    opacity: .2;
+}
+
+.ul-contacts li:nth-child(3):hover span
+{
+    background: #FFF;
+    color: #000;
+}
+.ul-contacts li:nth-child(2):hover span
+{
+    background: #FFF;
+    color: #000;
+}
+.ul-contacts li:nth-child(1):hover span
+{
+    background: #FFF;
+    color: #000;
+}
+
+.modal-backdrop {
+    background: rgba(255,255,255,0.2) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.modal-title{
+    color: #FFF;
+    text-shadow: 1px 1px #000;
+}
+
+
+.modal-content {
+    border: 1px lightgray solid !important;
+}
+
+.modal-footer {
+    color: #000;
+    text-shadow: 2px 2px lightgray;
+}
+
+
+.tel-modal, .email-modal, .git-modal{
+    transition: 1s;
+    color: #000;
+}
+
+.tel-modal:hover, .email-modal:hover, .git-modal:hover{
+    animation: none;
+    color: #0d6efd;
+    filter: drop-shadow(0px 0px 0.1px #0d6efd); 
+}
+@keyframes shake {
+    0% {
+        transform: rotate(5deg);
+    }
+    5% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(-5deg);
+    }
+    15% {
+        transform: rotate(10deg);
+    }
+    20%{
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    30% {
+        transform: rotate(0deg);
+    }
+}
+
+
+/* MEDIA QUERY */
+/*COMPUTER SCREEEN*/
+@media screen and (min-width:768px) {
+    .title-hero {
+        display: block;
+        margin-top:-5em;
+    }
+}
+
+
