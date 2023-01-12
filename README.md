@@ -91,7 +91,7 @@ This creates the logo effect on:
 
 👤 **Farlane Badache**
 
-* Website: ziscoplankton.github.io
+* Website: [Home](https://ziscoplankton.github.io)
 * Github: [@ziscoplankton](https://github.com/ziscoplankton)
 
 <br><br><br>
