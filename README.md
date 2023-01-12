@@ -1,6 +1,6 @@
-<div align="left" display="inline">
-# Welcome ! <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="48px" height="48px" alt="hi">
-</div>
+
+# Welcome <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="48px" height="48px" alt="hi">
+
 <br><br><br>
 
 # :man_technologist: About me
@@ -14,8 +14,6 @@
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=ziscoplankton.github.io&countColor=%2337d67a)
 
-
-![ziscoplankton's github stats](https://github-readme-stats.vercel.app/api?username=ziscoplankton&count_private=true&theme=tokyonight&hide=contribs,prs)
 <br><br><br><br>
 
 <details>
@@ -70,6 +68,10 @@ The `::before` and `::after` selectors with the properties `content` and `positi
 <br><br><br>
 
 # 🎭 Logo
+<div align="center"> 
+    <img src="logot.png">
+</div>
+
 ```
 var text = document.getElementById('text');
 var shadow = '';
