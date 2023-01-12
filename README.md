@@ -1,9 +1,4 @@
-
-# Welcome <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="48px" height="48px" alt="hi">
-
-<br><br><br>
-
-# :man_technologist: About me
+# Hi, I'm Farlane <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="48px" height="48px" alt="hi">
 
 - 🔦 I’m currently looking for a position and/or projects to work for
 - 🔌 Most used line of code `pip install`
@@ -14,7 +9,7 @@
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=ziscoplankton.github.io&countColor=%2337d67a)
 
-<br><br><br><br>
+<br><br>
 
 <details>
 <summary>
@@ -32,7 +27,7 @@ The idea was to have no colours and be minimalistic but as much informational as
 - Popovers
 
 
-<br><br>
+<br>
 
 # 👨‍🔧Build
 <div margin="2">
@@ -40,7 +35,7 @@ The idea was to have no colours and be minimalistic but as much informational as
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="32" height="32"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="32" height="32"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="32" height="32"/>
-<br><br><br><br>
+<br><br>
 </div>
 
 
@@ -65,7 +60,7 @@ Here is what the css look's like when you are creating forms:
 ```
 The `::before` and `::after` selectors with the properties `content` and `position` are the foundations.
 
-<br><br><br>
+<br><br>
 
 # 🎭 Logo
 <div align="center"> 
@@ -89,7 +84,7 @@ This creates the logo effect on:
 </div>
 ```
 
-<br><br><br>
+<br>
 
 
 ## Author
@@ -105,13 +100,13 @@ This creates the logo effect on:
 
 Give a ⭐️ if this project helped you or if you just liked it!
 
-<br><br><br>
+<br>
 
 ## Contribute
 
 If you have any suggestions or improvements, please feel free to submit a pull request.
 
-<br><br><br>
+<br>
 
 # Sources
 
