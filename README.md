@@ -1,19 +1,121 @@
-<div id="header" align="center">
-<img src="logo.png">
+<div align="left" display="inline">
+# Welcome ! <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="48px" height="48px" alt="hi">
+</div>
+<br><br><br>
+
+# :man_technologist: About me
+
+- 🔦 I’m currently looking for a position and/or projects to work for
+- 🔌 Most used line of code `pip install`
+- 🔍 I’m looking for help with Three JS, Blender
+- 📫 How to reach me: ziscoplankton@gmail.com
+- 🧲 Fun fact: I have 10 years experience in management
+
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=ziscoplankton.github.io&countColor=%2337d67a)
+
+
+![ziscoplankton's github stats](https://github-readme-stats.vercel.app/api?username=ziscoplankton&count_private=true&theme=tokyonight&hide=contribs,prs)
+<br><br><br><br>
+
+<details>
+<summary>
+    About the website
+</summary>
+
+<br>
+
+# 💡Concept
+The idea was to have no colours and be minimalistic but as much informational as possible without interfering with the user's experience. It is complemented with Bootstrap components:
+- Button
+- Modal
+- Navbar
+- Offcanvas
+- Popovers
+
+
+<br><br>
+
+# 👨‍🔧Build
+<div margin="2">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="32" height="32"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="32" height="32"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="32" height="32"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="32" height="32"/>
+<br><br><br><br>
 </div>
 
-# Welcome ! 
 
-### :man_technologist: About This website
+# 🧊 Isometry
+I really enjoyed getting some exposure to 3d rendering with css. It motivates me want to learn ThreeJS and Blender as soon as I finish this repo !
+Here is what the css look's like when you are creating forms:
+```
+.container .cube div span::before
+{
+    content: '';
+    position: absolute;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background-color: #FFF;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 1.5s;
+    border: 1px lightgray solid;
+    border-radius: 1%;
+}
+```
+The `::before` and `::after` selectors with the properties `content` and `position` are the foundations.
 
-Thank you for visiting this repo and hopefully the actual website.
+<br><br><br>
 
-It uses entirely HTML, CSS and a bit of JavaScript. 
+# 🎭 Logo
+```
+var text = document.getElementById('text');
+var shadow = '';
+for (var i = 0; i < 20; i++) {
+    shadow += (shadow? ',':'') + -i * 1 + 'px ' + i * 1 + 'px 0 #000';
+}
+text.style.textShadow = shadow;
+```
+This loop increment the variable shadow depending on a condition
+by `-i * 1` or `i * 1`.
+This creates the logo effect on:
+```sh
+<div class="navbar-brand-div rounded-5 m-5 mt-0">
+    <a class="nav-a" href="index.html" id="text">fb</a>
+</div>
+```
 
-The framework is Bootstrap and I created isometry with CSS using a few tutorials to get my head around the process. It helped to properly grasp on elements and choose their positions.
+<br><br><br>
 
-### Sources
 
-> [**Open Tutorials**](https://www.youtube.com/@OnlineTutorialsYT)
+## Author
 
-> [**GitHubPages**](https://pages.github.com/)
+👤 **Farlane Badache**
+
+* Website: ziscoplankton.github.io
+* Github: [@ziscoplankton](https://github.com/ziscoplankton)
+
+<br><br><br>
+
+## Show your support
+
+Give a ⭐️ if this project helped you or if you just liked it!
+
+<br><br><br>
+
+## Contribute
+
+If you have any suggestions or improvements, please feel free to submit a pull request.
+
+<br><br><br>
+
+# Sources
+
+> [**Open Tutorials for isometry**](https://www.youtube.com/@OnlineTutorialsYT)
+
+> [**Git Hub Pages for hosting**](https://pages.github.com/)
+
+
+</details>

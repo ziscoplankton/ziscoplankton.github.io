@@ -20,8 +20,8 @@ body {
     font-size: 6em;
     font-family: 'Baumans';
     color: #FFF;
-    text-shadow: 10px 10px rgba(0, 0, 0, 0.3);
-    opacity: 0.5;
+    text-shadow: 10px 10px rgba(0, 0, 0, 1);
+    opacity: 1;
     cursor: pointer;
 }
 
@@ -83,6 +83,10 @@ span .letter-hero {
     opacity: 0.5;
     border: 1px black solid;
     height: 50px;
+}
+
+.letter-hero {
+    display: block;
 }
 
 .letter-hero:hover {
@@ -528,5 +532,4 @@ span .letter-hero {
         margin-top:-5em;
     }
 }
-
 
