@@ -85,9 +85,6 @@ span .letter-hero {
     height: 50px;
 }
 
-.letter-hero {
-    display: block;
-}
 
 .letter-hero:hover {
     color: #000;
