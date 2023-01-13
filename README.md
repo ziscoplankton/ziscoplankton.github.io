@@ -1,8 +1,8 @@
 # Hi, I'm Farlane <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="48px" height="48px" alt="hi">
 
-- 🔦 I’m currently looking for a position and/or projects to work for
+- 🔦 I’m currently looking for a position and/or projects to work for/with
 - 🔌 Most used line of code `pip install`
-- 🔍 I’m looking for help with Three JS, Blender
+- 🔍 I’m looking for ressources on Django, Numpy, Three JS, Blender
 - 📫 How to reach me: ziscoplankton@gmail.com
 - 🧲 Fun fact: I have 10 years experience in management
 
@@ -19,13 +19,14 @@
 <br>
 
 # 💡Concept
-The idea was to have no colours and be minimalistic but as much informational as possible without interfering with the user's experience. It is complemented with Bootstrap components:
+The idea was to have no colours and be as minimalistic as possible but informational and without interfering with the user's experience. It is complemented with Bootstrap components:
 - Button
 - Modal
 - Navbar
 - Offcanvas
 - Popovers
 
+These elements helped me to create clean layout, interactions and create additional values to the viewer
 
 <br>
 
@@ -40,8 +41,8 @@ The idea was to have no colours and be minimalistic but as much informational as
 
 
 # 🧊 Isometry
-I really enjoyed getting some exposure to 3d rendering with css. It motivates me want to learn ThreeJS and Blender as soon as I finish this repo !
-Here is what the css look's like when you are creating forms:
+I really enjoyed getting some exposure to 3d rendering with css. It gave me a clear test on how cool ThreeJS and Blender would be ! 
+Here is bits of the css if you want to create forms:
 ```
 .container .cube div span::before
 {
