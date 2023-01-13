@@ -4,7 +4,7 @@
 - 🔌 Most used line of code `pip install`
 - 🔍 I’m looking for ressources on Django, Numpy, Three JS, Blender
 - 📫 How to reach me: ziscoplankton@gmail.com
-- 🧲 Fun fact: I have 10 years experience in management
+- 🧲 Fun fact: I've worked 20+ hours shifts
 
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=ziscoplankton.github.io&countColor=%2337d67a)
