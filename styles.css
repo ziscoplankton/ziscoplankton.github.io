@@ -449,6 +449,12 @@ span .letter-hero {
     opacity: .2;
 }
 
+.ul-contacts li:nth-child(4):hover span
+{
+    background: #FFF;
+    color: #000;
+}
+
 .ul-contacts li:nth-child(3):hover span
 {
     background: #FFF;
@@ -530,3 +536,75 @@ span .letter-hero {
     }
 }
 
+
+
+/*
+*
+* RESUME
+*
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Bungee+Shade&family=Plaster&family=Spicy+Rice&family=Train+One&family=Zen+Tokyo+Zoo&display=swap');
+
+body {
+}
+
+#logo {
+    font-family: 'Baumans';
+    color: #FFF;
+    font-weight: 700;
+    font-size: 7em;
+    line-height: 0.9em;
+    letter-spacing: 0px;
+    text-align: center;
+    transform: rotate(-28deg) skew(25deg);
+}
+
+#top-h {
+    color: #FFF;
+    text-shadow: -1px -1px #000;
+}
+
+.top-h {
+    color: #FFF;
+    text-shadow: 1px 1px #000;
+}
+#top-p {
+    font-size: 0.7em;
+    letter-spacing: 0.2px;
+    font-weight: 20;
+}
+
+#profile-details .container {
+    font-size: .5em;
+    text-align: left;
+}
+
+#languages .display-3, #phone p, #website p, #mail p, #education-exp-rank, footer{
+    font-size: .6em;
+    font-weight: 200;
+}
+
+#work-exp-x-date {
+    transform: translate(-50px, 5px);
+    position: absolute;
+    font-weight: 300;
+    font-size: .5em;
+    letter-spacing: 0px;
+    width: fit-content;
+}
+
+#work-exp-workplace, #education-exp-title {
+    font-size: .9em;
+    font-weight: 500;
+    opacity: .7;
+}
+
+#work-exp-workx {
+    font-weight: 200;
+    font-size: .6em;
+}
+
+#current {
+    font-style: italic;
+}
