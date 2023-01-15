@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Concepts</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <body class="position-relative">
+
         <main class=" d-flex flex-column justify-content-between container-fluid p-0 h-100">
+
             <header class="">
                 <nav class="navbar">
                     <div class="container-fluid d-flex flex-row">
@@ -31,7 +33,7 @@
                               </ul>
                         </div>
                     </div>
-                  </nav>
+                </nav>
             </header>
 
             <section class="container h-100 d-flex justify-content-center align-items-center">
@@ -235,7 +237,6 @@
               </div>
             </div>
 
-
             <!-----------------------DATALINK---------------------->
             <div class="offcanvas offcanvas-bottom h-75 w-auto" tabindex="-1" id="DataLink" aria-labelledby="DataLinkLabel">
               <div class="offcanvas-header">
@@ -256,23 +257,23 @@
                       <li class="list-group-item">Payload</li>
                       <li class="list-group-item">FCS (Frame Check Sequence)</li>
                   </ol>
-              </p>
-              <p class="mac-p">
+                </p>
+                <p class="mac-p">
                   MAC addresses are written in hexadecimal, are 6 bytes and a colon is inserted between pairs:
                   <br> 00:EE:AF:FF:EA:00
                   <br><br> This example shows a pattern from the concept of IPv6 EUI-64 which is a method that
                   automatically generates a unique IPv6 address using the MAC ADDR and the INT ID(interface). <br>
                   This method
                   inserts "FFFE" between the two halves of a MAC as in the example above.
-              </p>
-              <p>
+                </p>
+                <p>
                   Each half of a MAC address is meaningful in other ways. The first half
                   is usually associated to a constructor and the other is used to uniquely identify a machine onto its hardware.
                   <br>Which is a why the MAC address is also known as a BIA ADRR for "Burn In Address". Therefore, the frames in the layer 2 containing the mac addresses can be forged.
                   <br><br>An 'old classic' is exploiting the Address Resolution Protocol known as ARP spoofing or ARP poisoning.
                   <br>Another way to mislead communications at this layer is a vlan leak by exploiting vlan knowledges unto dot1q and the native vlans.
                   <br><br>Therefore, features on switches can mitigate this type of vulnerabilities by enabling port-security, DAI (Dynamic ARP Inspection) and DHCP Snooping which is also using the Layer 3 of the OSI Model: The Network which stands for the world of routing and IP addressses.
-              </p>
+                </p>
               </div>
             </div>
 

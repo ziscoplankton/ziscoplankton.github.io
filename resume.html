@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Please refered to ids of HTML elements after a \n as doc anchor points-->
 </head>
-<body style="height: 100vh;">
-    
+<body style="height: 100vh;">    
 <div class="container-fluid p-0 w-75">
-    <div class="p-0 container-fluid d-flex justify-content-center align-content-center align-items-center">
+
+    <div class="p-0 container-fluid d-flex justify-content-center align-items-center" id="resume-head">
         <div class="my-2 container w-25 h-25 d-flex justify-content-center align-content-center">
             <h1 class="display-1 w-auto" id="logo">fb</h1>
         </div>
-
         <div class="m-5">
             <div class="container">
                 <div class="container">
@@ -25,13 +25,14 @@
                 <div class="container" id="top-p">
                     <div class="container p-0">
                         <p class="p-0">I'm an enthusiastic developer with an interest for UI/UX and networking.
-                        I'm passionate about music, drawing and new technologies.
-                        Always eager to learn !</p>
+                        I'm passionate about music, drawing and technologies.
+                        Always eager to learn <span>!</span></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="container p-0" id="profile-details">
         <div class="container p-0 display-3 position-absolute px-5">
             Strong time management<br>
@@ -40,26 +41,26 @@
             Team player
         </div>
     </div>
-    <div class="container d-grid">
 
-        <div class="container row gap-5" id="main">
+    <div class="mt-lg-5 w-100 d-md-grid d-sm-flex">
+        <div class="row gap-5" id="main">
 
             <!----------------LEFTSIDE----------------->
-            <div class=" container col-2 mt-5" id="left-side">
-                <div class="container-fluid p-0" id="languages">
-                    <div class="container-fluid p-0" id="languages-title">
+            <div class="order-2 order-md-1 container-lg col-md-2 mt-md-5" id="left-side">
+                <div class="container" id="languages">
+                    <div class="container" id="languages-title">
                         <h1 class="top-h">LANGUAGES</h1><hr>
                     </div>
-                    <div class="container p-0 display-3">
+                    <div class="container display-3">
                         English<br>
                         French
                     </div>
                 </div>
-                <div class="container-fluid  p-0 mt-5" id="contact">
-                    <div class="container-fluid  p-0" id="contact-title">
+                <div class="container-fluid mt-5" id="contact">
+                    <div class="container-fluid " id="contact-title">
                         <h1 id="top-h">CONTACT</h1><hr>
                     </div>
-                    <div class="container p-0" id="contact-details">
+                    <div class="container p-lg-0" id="contact-details">
                         <div class="container p-0 text-nowrap" id="phone">
                             <h6 class="top-h">phone</h6>
                             <p>+61 412 778 987</p>
@@ -74,16 +75,15 @@
                         </div>
                     </div>
                 </div>
-
             </div>
 
 
             <!----------------RIGHT----------------->
-            <div class=" mt-5 container col-4 text-nowrap" id="right-side">
+            <div class="order-1 order-md-2 mt-5 container-lg col-md-4 text-nowrap" id="right-side">
                 
                 <!--------------WORKEXP----------------------->
                 <div class="container " id="work-exp">
-                    <div class="container" id="work-exp-title">
+                    <div class="" id="work-exp-title">
                         <h1 id="top-h">WORK EXPERIENCE</h1><hr>
                     </div>
                     <div class="container" id="work-exp-details">
@@ -100,8 +100,8 @@
                     </div>
                     <div class="container" id="work-exp-details">
                         <div class="container" id="work-exp-x-date">
-                            Apr 2019<br>
-                            Oct 2018
+                            Nov 2018<br>
+                            May 2018
                         </div>
                         <div class="container" id="work-exp-x">
                             <div class="container" id="work-exp-x-details">
@@ -112,8 +112,8 @@
                     </div>
                     <div class="container" id="work-exp-details">
                         <div class="container" id="work-exp-x-date">
-                            Sep 2018<br>
-                            Dec 2017
+                            May 2018<br>
+                            Nov 2017
                         </div>
                         <div class="container" id="work-exp-x">
                             <div class="container" id="work-exp-x-details">
@@ -124,8 +124,8 @@
                     </div>
                     <div class="container" id="work-exp-details">
                         <div class="container" id="work-exp-x-date">
-                            Dec 2017<br>
-                            Mar 2017
+                            Nov 2017<br>
+                            Dec 2016
                         </div>
                         <div class="container" id="work-exp-x">
                             <div class="container" id="work-exp-x-details">
@@ -136,8 +136,8 @@
                     </div>
                     <div class="container" id="work-exp-details">
                         <div class="container" id="work-exp-x-date">
-                            Feb 2017<br>
-                            Jun 2014
+                            Dec 2016<br>
+                            Jun 2013
                         </div>
                         <div class="container" id="work-exp-x">
                             <div class="container" id="work-exp-x-details">
@@ -188,7 +188,7 @@
                         <h1 id="top-h">SKILLS</h1><hr>
                     </div>
                     <div class="container-fluid p-0" id="education-details">
-                        <div class="container-fluid p-0" id="education-exp">
+                        <div class="container-fluid" id="education-exp">
                             <div class="container" id="education-exp-title">
                                 OS
                             </div>
@@ -196,7 +196,7 @@
                                 MAC OS, Linux
                             </div>
                         </div>
-                        <div class="container-fluid p-0" id="education-exp">
+                        <div class="container-fluid" id="education-exp">
                             <div class="container" id="education-exp-title">
                                 Front end
                             </div>
@@ -204,7 +204,7 @@
                                 HTML, SCSS, JS
                             </div>
                         </div>
-                        <div class="container-fluid p-0" id="education-exp">
+                        <div class="container-fluid" id="education-exp">
                             <div class="container" id="education-exp-title">
                                 Back end
                             </div>
@@ -212,7 +212,7 @@
                                 C, Python
                             </div>
                         </div>
-                        <div class="container-fluid p-0" id="education-exp">
+                        <div class="container-fluid" id="education-exp">
                             <div class="container" id="education-exp-title">
                                 Libraries & Frameworks
                             </div>
@@ -225,26 +225,13 @@
 
         </div>
     </div>
-
-    <footer class="container footer text-center">
-        This resume was created using HTML, CSS, Bootstrap
-    </footer>
 </div>
+<footer class="container fixed-bottom footer text-end text-lg-start">
+    This resume was created using HTML, CSS, Bootstrap
+</footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-<script>
-    var text = document.getElementById('logo');
-    var shadow = '';
-    for (var i = 0; i < 20; i++) {
-        shadow += (shadow? ',':'') + -i * 1 + 'px ' + i*1+ 'px 0 #000';
-    }
-    text.style.textShadow = shadow;
-
-    
-
-    var elem = document.getElementById('print');
-
-</script>
+<script src="3dresume.js"></script>
 
 </html>

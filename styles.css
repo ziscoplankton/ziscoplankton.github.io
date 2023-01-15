@@ -6,15 +6,25 @@
 }
 
 
-/* BODY */
+/* 
+*
+*BODY 
+*
+*/
+
+
 body {
     height: 100vh;
 }
 
-/* FONT TO LOGO & HERO */
+
+/* 
+*
+* LOGO 
+*
+*/
 
 
-/* LOGO */
 .nav-a {
     text-decoration: none;
     font-size: 6em;
@@ -38,6 +48,7 @@ body {
     width: 5px;
     height: 100px;
 }
+
 .nav .nav-link {
     color: #FFF;
     text-shadow: 1px 1px lightgray;
@@ -53,7 +64,12 @@ body {
 }
 
 
-/* MAIN SECTION: HERO */
+/* 
+*
+*MAIN SECTION: HERO 
+*
+*/
+
 
 .hero-h1{
     color: #FFF;
@@ -78,13 +94,11 @@ body {
     font-size: 4em;
 }
 
-
 span .letter-hero {
     opacity: 0.5;
     border: 1px black solid;
     height: 50px;
 }
-
 
 .letter-hero:hover {
     color: #000;
@@ -99,8 +113,6 @@ span .letter-hero {
     background: rgba(255,255,255,0.2);
     backdrop-filter: blur(5px);
 }
-
-
 
 /*CUBE */
 /*SOURCE: 'Open Tutorials CSS' */
@@ -161,6 +173,7 @@ span .letter-hero {
     border: 1px lightgray solid;
     border-radius: 1%;
 }
+
 .container-cube .cube div span:hover {
     transition: 0s;
     background: #FFF;
@@ -211,6 +224,7 @@ span .letter-hero {
     background: #FFF;
     border: 1px #000 solid;
 }
+
 .container .cube div a span:hover::after {
     transform: rotateX(360deg);
     transition: all 900ms ease;
@@ -218,12 +232,13 @@ span .letter-hero {
 }
 
 
-
 /* 
 *
 *LOGO 
 *Source: Open Css Tutorials
 */
+
+
 #text {
     position: absolute;
     color: #FFF;
@@ -254,6 +269,8 @@ span .letter-hero {
 * Source: Open CSS Tutorials
 *
 */
+
+
 .concepts-ul {
     position: relative;
     transform: skewY(-15deg);
@@ -314,7 +331,6 @@ span .letter-hero {
     transition: all 1s ease;
  }
 
-
 .concepts-ul li:hover::before, .concepts-ul li:hover::after {
     border: 1px #000 solid;
 }
@@ -325,16 +341,12 @@ span .letter-hero {
 }
 
 
-
-
-
-
-/*CONCEPTS PAGES BACKGROUND CUBE*/
 /*
 *
-*
+* CONCEPTS PAGES 
 *
 */
+
 
 .offcanvas-backdrop {
     background: rgba(255,255,255,0.2);
@@ -366,12 +378,13 @@ span .letter-hero {
     z-index: 1;
 }
 
-/* CONTACT PAGE */
+
 /*
-*
+* CONTACT PAGE 
 * Source Open Tutorials
 *
 */
+
 
 .ul-contacts {
     position: relative;
@@ -426,7 +439,6 @@ span .letter-hero {
     text-shadow: none;
 }
 
-
 .ul-contacts li:hover span:nth-child(3)
 {
     content: '';
@@ -438,11 +450,13 @@ span .letter-hero {
     height: 60px;
     text-shadow: none;
 }
+
 .ul-contacts li:hover span:nth-child(2)
 {
     transform: translate(10px, -10px);
     opacity: .4;
 }
+
 .ul-contacts li:hover span:nth-child(1)
 {
     transform: translate(0px, 0px);
@@ -460,11 +474,13 @@ span .letter-hero {
     background: #FFF;
     color: #000;
 }
+
 .ul-contacts li:nth-child(2):hover span
 {
     background: #FFF;
     color: #000;
 }
+
 .ul-contacts li:nth-child(1):hover span
 {
     background: #FFF;
@@ -481,7 +497,6 @@ span .letter-hero {
     text-shadow: 1px 1px #000;
 }
 
-
 .modal-content {
     border: 1px lightgray solid !important;
 }
@@ -490,7 +505,6 @@ span .letter-hero {
     color: #000;
     text-shadow: 2px 2px lightgray;
 }
-
 
 .tel-modal, .email-modal, .git-modal{
     transition: 1s;
@@ -527,7 +541,13 @@ span .letter-hero {
 }
 
 
-/* MEDIA QUERY */
+/* 
+*
+* MEDIA QUERY 
+*
+*/
+
+
 /*COMPUTER SCREEEN*/
 @media screen and (min-width:768px) {
     .title-hero {
@@ -536,18 +556,13 @@ span .letter-hero {
     }
 }
 
-
-
 /*
 *
 * RESUME
-*
+* Please ref to the selectors as doc anchors
 */
-
 @import url('https://fonts.googleapis.com/css2?family=Baumans&family=Bungee+Shade&family=Plaster&family=Spicy+Rice&family=Train+One&family=Zen+Tokyo+Zoo&display=swap');
 
-body {
-}
 
 #logo {
     font-family: 'Baumans';
@@ -607,4 +622,13 @@ body {
 
 #current {
     font-style: italic;
+}
+
+@media screen and (max-width:520px) {
+    #profile-details {
+        display: none;
+    }
+    #resume-head {
+        margin-left: 10% !important;
+    }
 }
