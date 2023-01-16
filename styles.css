@@ -75,7 +75,7 @@ body {
     color: #FFF;
     text-shadow: 1px 1px black;
     opacity: 0;
-    font-size: 5em;
+    font-size: 10vh;
     line-height: 0px;
     animation: letterHeight 5s forwards;
     transition: letterHeight 900ms ease;
