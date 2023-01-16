@@ -97,9 +97,10 @@ body {
 
 .letter-hero {
     padding: 0px;
+    margin: 0px;
     font-size: 6em;
     font-weight: 700;
-    line-height: 1em;
+    line-height: 95px;
 }
 /*POPOVERS*/
 .popover , .popover-header{
