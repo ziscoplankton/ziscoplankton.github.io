@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');/* REINIT BROWSER FORMATS */
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+
+/* INIT BROWSER FORMATS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 /* 
 *
-*BODY 
+*BODY & RESET
 *
 */
 
@@ -95,13 +96,7 @@ body {
     opacity: 1;
 }
 
-.letter-hero {
-    padding: 0px;
-    margin: 0px;
-    font-size: 6em;
-    font-weight: 700;
-    line-height: 95px;
-}
+
 /*POPOVERS*/
 .popover , .popover-header{
     background: rgba(255,255,255,0.2);
