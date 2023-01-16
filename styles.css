@@ -75,21 +75,13 @@ body {
     color: #FFF;
     text-shadow: 1px 1px black;
     opacity: 1;
-    font-size: 4.5em;
+    font-size: 5em;
 }
-.letter-hero {
-
-    /* animation: appear 5s forwards;
-    transition: all 900ms ease; */
-}
-
-
 
 .title-hero {
     display: none;
     color: #FFF;
     text-shadow: -2px 0px #000;
-    font-size: 3.5em;
 }
 
 .letter-hero:hover {
@@ -106,8 +98,14 @@ body {
     backdrop-filter: blur(5px);
 }
 
-/*CUBE */
-/*SOURCE: 'Open Tutorials CSS' */
+
+/*
+*CUBE
+*SOURCE: 'Open Tutorials CSS' 
+*
+*/
+
+
 .container-cube {
     position: relative;
     bottom: 100px;
@@ -546,6 +544,9 @@ body {
     .title-hero {
         display: block;
         margin-top:-5em;
+    }
+    .hero-h1 {
+        font-size: 7.5em;
     }
 }
 
