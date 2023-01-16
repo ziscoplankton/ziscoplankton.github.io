@@ -88,6 +88,10 @@ body {
     to {opacity: 1; line-height: 100%;}
 }
 
+.letter-hero {
+    font-size: 2em;
+}
+
 .letter-hero:hover {
     color: #000;
     text-shadow: 4px 4px lightgray;
@@ -544,6 +548,9 @@ body {
     .title-hero {
         display: block;
         margin-top:-5em;
+    }
+    .letter-hero {
+        font-size: 10em;
     }
 }
 
