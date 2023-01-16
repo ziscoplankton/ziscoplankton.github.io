@@ -71,20 +71,17 @@ body {
 */
 
 
-.hero-h1{
-    color: #FFF;
-    text-shadow: 1px 1px black;
-    opacity: 0;
-    font-size: 10vh;
-    line-height: 0px;
-    animation: letterHeight 5s forwards;
-    transition: letterHeight 900ms ease;
-}
-
 .title-hero {
     display: none;
     color: #FFF;
     text-shadow: -2px 0px #000;
+    font-size: 5.5rem;
+    font-weight: 900;
+}
+
+.hero-h1{
+    color: #FFF;
+    text-shadow: 1px 1px black;
 }
 @keyframes letterHeight {
     to {opacity: 1; line-height: 100%;}
@@ -98,10 +95,12 @@ body {
     opacity: 1;
 }
 
-#name {
-    width: fit-content;
+.letter-hero {
+    padding: 0px;
+    font-size: 6em;
+    font-weight: 700;
+    line-height: 1em;
 }
-
 /*POPOVERS*/
 .popover , .popover-header{
     background: rgba(255,255,255,0.2);
@@ -242,9 +241,8 @@ body {
 #text {
     position: absolute;
     color: #FFF;
-    font-weight: 700;
-    font-size: 5em;
     line-height: 0.9em;
+    font-weight: 900 !important;
     letter-spacing: 2px;
     text-align: center;
     transform: rotate(-28deg) skew(25deg);
@@ -551,9 +549,6 @@ body {
         display: block;
         margin-top:-5em;
     }
-    .hero-h1 {
-        font-size: 7.5em;
-    }
 }
 
 /*
@@ -577,7 +572,8 @@ body {
 
 #top-h {
     color: #FFF;
-    text-shadow: -1px -1px #000;
+    text-shadow: -2px -1px #000;
+    font-weight: 900;
 }
 
 .top-h {
