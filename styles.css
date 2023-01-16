@@ -73,31 +73,23 @@ body {
 
 .hero-h1{
     color: #FFF;
-    text-shadow: 1px 1px #000;
-    height: 100%;
-    animation: appear 10s forwards;
-    opacity: 0;
-    transition: all 600ms ease;
+    text-shadow: 1px 1px black;
+    opacity: 1;
+    font-size: 4.5em;
+}
+.letter-hero {
+
+    /* animation: appear 5s forwards;
+    transition: all 900ms ease; */
 }
 
-.letter-hero {
-    font-size: 10vw;
-}
-@keyframes appear {
-    to {opacity: 1;}
-}
+
 
 .title-hero {
     display: none;
     color: #FFF;
     text-shadow: -2px 0px #000;
-    font-size: 4em;
-}
-
-span .letter-hero {
-    opacity: 0.5;
-    border: 1px black solid;
-    height: 50px;
+    font-size: 3.5em;
 }
 
 .letter-hero:hover {
@@ -118,8 +110,8 @@ span .letter-hero {
 /*SOURCE: 'Open Tutorials CSS' */
 .container-cube {
     position: relative;
-    top: -160px;
-    right: -40px;
+    bottom: 100px;
+
     transform: skewY(-20deg);
     /* animation: animate 5s linear infinite; */
     transition: all 600ms ease;
@@ -160,6 +152,7 @@ span .letter-hero {
     flex-direction: column;
     gap: 30px;
     translate: calc(-70px * var(--x)) calc(-60px * var(--y));
+    transition: all 900ms ease;
 }
 
 .container-cube .cube div span {
@@ -343,7 +336,7 @@ span .letter-hero {
 
 /*
 *
-* CONCEPTS PAGES 
+* CONCEPTS OffCanvas 
 *
 */
 
