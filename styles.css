@@ -573,8 +573,10 @@ body {
 
 #top-h {
     color: #FFF;
-    text-shadow: -2px -1px #000;
-    font-weight: 900;
+    text-shadow: 1px 1px black;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 700;
 }
 
 .top-h {
