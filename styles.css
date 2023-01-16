@@ -86,13 +86,12 @@ body {
 
 }
 @keyframes letterHeight {
-    to {opacity: 1; line-height: 1%;}
+    to {opacity: 1;}
 }
 
 .letter-hero {
     font-size: 5em;
     opacity: 0;
-    line-height: 0;
     animation: letterHeight 5s forwards;
 }
 
