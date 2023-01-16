@@ -83,13 +83,17 @@ body {
 .hero-h1{
     color: #FFF;
     text-shadow: 1px 1px black;
+
 }
 @keyframes letterHeight {
-    to {opacity: 1; line-height: 100%;}
+    to {opacity: 1; line-height: 1%;}
 }
 
 .letter-hero {
-    font-size: 2em;
+    font-size: 5em;
+    opacity: 0;
+    line-height: 0;
+    animation: letterHeight 5s forwards;
 }
 
 .letter-hero:hover {
