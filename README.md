@@ -90,7 +90,7 @@ This creates the logo effect on:
 
 ## Author
 
-👤 **Farlane Badache**
+👤 **FB**
 
 * Website: [Home](https://ziscoplankton.github.io)
 * Github: [@ziscoplankton](https://github.com/ziscoplankton)
